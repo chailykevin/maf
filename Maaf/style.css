@@ -1,0 +1,107 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+body {
+  background-image: url(Images/pastel-pink-background-with-red-hearts-blank-space-text.jpg);
+  background-size: cover;
+  font-family: "Dancing Script";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  width: 100vw;
+}
+
+body .second {
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  width: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+body .second h1 {
+  flex: 0;
+}
+
+body .second img {
+  width: auto;
+  height: 400px;
+}
+
+body .first {
+  height: 100%;
+  display: flex;
+  gap: 50px;
+  flex: 1;
+}
+
+body .first .wholeText {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  align-items: center;
+  gap: 16px;
+}
+
+body .first .wholeText h1 {
+  flex: 0;
+}
+
+body .first .wholeText h2 {
+  flex: 0;
+}
+
+body .first .wholeText img {
+  flex: 0;
+  width: 200px;
+}
+
+body .first .wholeText img:hover {
+  scale: 1.1;
+  transition: 400ms ease-in-out;
+}
+
+body .first img.gif {
+  width: 300px;
+  height: auto;
+  flex: 0;
+}
+
+body .first .test {
+  display: flex;
+  justify-content: center;
+}
+
+.first button {
+  color: white;
+  font-weight: 700;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(224, 162, 162);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.first button:hover {
+  cursor: pointer;
+  scale: 1.1;
+  transition: 1s;
+  background-color: rgb(181, 135, 135);
+}
